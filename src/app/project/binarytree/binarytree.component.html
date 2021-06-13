@@ -1,0 +1,12 @@
+<div class="row">
+    <div class="col" id="tree">
+        <li *ngFor="let leaf of tree">
+            <span>{{leaf}}</span>
+        </li>
+    </div>
+    <div class="col" id="form">
+        <label>Insert Number</label>
+        <input #leafNumber min="0">
+        <button (click)="add(leafNumber.value); leafNumber.value=''">Enter</button>
+    </div>
+</div>
