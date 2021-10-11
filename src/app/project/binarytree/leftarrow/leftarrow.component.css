@@ -1,0 +1,8 @@
+.leftarrow{
+    background-color: black;
+    height: 5em;
+    width: 1em;
+    transform: rotate(45deg);
+    margin: auto;
+    display: flex;
+}

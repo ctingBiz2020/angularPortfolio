@@ -8,6 +8,9 @@ import { ProjectComponent } from './project/project.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BinarytreeComponent } from './project/binarytree/binarytree.component';
+import { NodeComponent } from './project/binarytree/node/node.component';
+import { LeftarrowComponent } from './project/binarytree/leftarrow/leftarrow.component';
+import { RightarrowComponent } from './project/binarytree/rightarrow/rightarrow.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -22,7 +25,10 @@ const appRoutes: Routes = [
     AboutComponent,
     ProjectComponent,
     HomeComponent,
-    BinarytreeComponent
+    BinarytreeComponent,
+    NodeComponent,
+    LeftarrowComponent,
+    RightarrowComponent
   ],
   imports: [
     BrowserModule,

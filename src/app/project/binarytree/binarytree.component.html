@@ -1,9 +1,12 @@
 <div class="row">
     <div class="col" id="tree">
         <li *ngFor="let leaf of tree">
-            <span>{{leaf}}</span>
+            <app-node>{{leaf}}</app-node>
         </li>
     </div>
+    <app-node></app-node>
+    <app-leftarrow></app-leftarrow>
+    <app-rightarrow></app-rightarrow>
     <div class="col" id="form">
         <label>Insert Number</label>
         <input #leafNumber min="0">
